@@ -1,0 +1,34 @@
+Quartus Prime Archive log --	C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.qarlog
+
+Archive:	C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.qar
+Date:		Tue Apr 26 00:25:25 2022
+Quartus Prime		20.1.1 Build 720 11/11/2020 SJ Standard Edition
+
+	=========== Files Selected: ===========
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.SDC
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.qpf
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.qsf
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8.sdc
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Lab8_assignment_defaults.qdf
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/Tap.stp
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/db/Tap_auto_stripped.stp
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll.cmp
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll.qip
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll.sip
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll.spd
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll.v
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll/pll_0002.qip
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll/pll_0002.v
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8Tb.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv
+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv
+C:/users/tanle/onedrive/documents/vs_code/3763_fpga/lab8/source/parameters.svh
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

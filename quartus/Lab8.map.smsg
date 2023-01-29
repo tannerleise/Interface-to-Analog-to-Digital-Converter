@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at data.sv(20): always construct contains both blocking and non-blocking assignments File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv Line: 20

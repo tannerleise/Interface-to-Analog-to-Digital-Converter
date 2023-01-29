@@ -1,0 +1,32 @@
+transcript on
+if ![file isdirectory Lab8_iputf_libs] {
+	file mkdir Lab8_iputf_libs
+}
+
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+
+
+vlog "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo"
+
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv}
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv}
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv}
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv}
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv}
+
+vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab8Tb
+
+add wave *
+view structure
+view signals
+run -all

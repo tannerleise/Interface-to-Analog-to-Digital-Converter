@@ -1,0 +1,832 @@
+# Reading pref.tcl
+# do Lab8_run_msim_rtl_verilog.do
+# if ![file isdirectory Lab8_iputf_libs] {
+# 	file mkdir Lab8_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:15 on Apr 25,2022
+# vlog -reportprogress 300 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 12:17:15 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:15 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv 
+# -- Compiling module Lab8
+# 
+# Top level modules:
+# 	Lab8
+# End time: 12:17:15 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:15 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv 
+# -- Compiling module Hexlights
+# 
+# Top level modules:
+# 	Hexlights
+# End time: 12:17:15 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:15 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv 
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# End time: 12:17:15 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:15 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv 
+# -- Compiling module count
+# 
+# Top level modules:
+# 	count
+# End time: 12:17:16 on Apr 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:16 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 12:17:16 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:16 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv 
+# -- Compiling module ChannelSelect
+# 
+# Top level modules:
+# 	ChannelSelect
+# End time: 12:17:16 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 12:17:16 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv 
+# -- Compiling module Lab8Tb
+# 
+# Top level modules:
+# 	Lab8Tb
+# End time: 12:17:16 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab8Tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab8Tb 
+# Start time: 12:17:16 on Apr 25,2022
+# Loading sv_std.std
+# Loading work.Lab8Tb
+# Loading work.Lab8
+# Loading work.pll
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.count
+# Loading work.data
+# Loading work.ChannelSelect
+# Loading work.bin2bcd
+# Loading work.Hexlights
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tanle  Hostname: MSI  ProcessID: 19544
+#           Attempting to use alternate WLF file "./wlfth874y9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlfth874y9
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+add wave -position end  sim:/Lab8Tb/U0/U2/select
+add wave -position end  sim:/Lab8Tb/U0/U2/chansel
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/wave.do
+do Lab8_run_msim_rtl_verilog.do
+# if ![file isdirectory Lab8_iputf_libs] {
+# 	file mkdir Lab8_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:49 on Apr 25,2022
+# vlog -reportprogress 300 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 15:48:49 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:49 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv 
+# -- Compiling module Lab8
+# 
+# Top level modules:
+# 	Lab8
+# End time: 15:48:49 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:49 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv 
+# -- Compiling module Hexlights
+# 
+# Top level modules:
+# 	Hexlights
+# End time: 15:48:49 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:49 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv 
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# End time: 15:48:50 on Apr 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:50 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv 
+# -- Compiling module count
+# 
+# Top level modules:
+# 	count
+# End time: 15:48:50 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:50 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 15:48:50 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:50 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv 
+# -- Compiling module ChannelSelect
+# 
+# Top level modules:
+# 	ChannelSelect
+# End time: 15:48:50 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:48:50 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv 
+# -- Compiling module Lab8Tb
+# 
+# Top level modules:
+# 	Lab8Tb
+# End time: 15:48:50 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab8Tb
+# End time: 15:48:52 on Apr 25,2022, Elapsed time: 3:31:36
+# Errors: 0, Warnings: 28
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab8Tb 
+# Start time: 15:48:53 on Apr 25,2022
+# Loading sv_std.std
+# Loading work.Lab8Tb
+# Loading work.Lab8
+# Loading work.pll
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.count
+# Loading work.data
+# Loading work.ChannelSelect
+# Loading work.bin2bcd
+# Loading work.Hexlights
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tanle  Hostname: MSI  ProcessID: 19544
+#           Attempting to use alternate WLF file "./wlftyjtf18".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftyjtf18
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+do wave.do
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+do Lab8_run_msim_rtl_verilog.do
+# if ![file isdirectory Lab8_iputf_libs] {
+# 	file mkdir Lab8_iputf_libs
+# }
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 31: Unable to unlink file "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+###### Libraries for IPUTF cores 
+###### End libraries for IPUTF cores 
+###### MIF file copy and HDL compilation commands for IPUTF cores 
+# 
+# 
+# vlog "C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo"
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:13 on Apr 25,2022
+# vlog -reportprogress 300 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo 
+# -- Compiling module pll
+# 
+# Top level modules:
+# 	pll
+# End time: 17:23:13 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:13 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv 
+# -- Compiling module Lab8
+# 
+# Top level modules:
+# 	Lab8
+# End time: 17:23:13 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:13 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv 
+# -- Compiling module Hexlights
+# 
+# Top level modules:
+# 	Hexlights
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:14 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv 
+# -- Compiling module data
+# 
+# Top level modules:
+# 	data
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:14 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv 
+# -- Compiling module count
+# 
+# Top level modules:
+# 	count
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:14 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv 
+# -- Compiling module bin2bcd
+# 
+# Top level modules:
+# 	bin2bcd
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:14 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv 
+# -- Compiling module ChannelSelect
+# 
+# Top level modules:
+# 	ChannelSelect
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source {C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:23:14 on Apr 25,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source" C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv 
+# -- Compiling module Lab8Tb
+# 
+# Top level modules:
+# 	Lab8Tb
+# End time: 17:23:14 on Apr 25,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  Lab8Tb
+# End time: 17:23:16 on Apr 25,2022, Elapsed time: 1:34:23
+# Errors: 0, Warnings: 28
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" Lab8Tb 
+# Start time: 17:23:16 on Apr 25,2022
+# Loading sv_std.std
+# Loading work.Lab8Tb
+# Loading work.Lab8
+# Loading work.pll
+# Loading altera_lnsim_ver.altera_lnsim_functions
+# Loading altera_lnsim_ver.altera_pll
+# Loading work.count
+# Loading work.data
+# Loading work.ChannelSelect
+# Loading work.bin2bcd
+# Loading work.Hexlights
+# Loading altera_lnsim_ver.dps_extra_kick
+# Loading altera_lnsim_ver.dprio_init
+# Loading altera_lnsim_ver.altera_generic_pll_functions
+# Loading altera_lnsim_ver.generic_pll
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: tanle  Hostname: MSI  ProcessID: 19544
+#           Attempting to use alternate WLF file "./wlftq5q0r7".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftq5q0r7
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30
+do wave.do
+run -all
+# Break key hit
+# Simulation stop requested.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'pll_altera_pll_altera_pll_i_639'.  Expected 26, found 5.
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U0/pll_altera_pll_altera_pll_i_639 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo Line: 46
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'refclk1'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_en'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'updn'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'num_phase_shifts'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'scanclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cntsel'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_to_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extswitch'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'adjpllin'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'fboutclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phase_done'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'reconfig_from_pll'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'activeclk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'clkbad'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'phout'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'lvds_clk'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'loaden'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'extclk_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'cascade_out'.
+# ** Warning: (vsim-3722) C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo(46): [TFMPC] - Missing connection for port 'zdbfbclk'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U4 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U5 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 33
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U6 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 34
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U7 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 35
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U8 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 36
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (7) for port 'f'. The port definition is at: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv(7).
+#    Time: 0 ps  Iteration: 0  Instance: /Lab8Tb/U0/U9 File: C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv Line: 37
+run -all
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Adjusting output period from 853970.964987 to 892000.000000
+# Info: =================================================
+# Info:           Generic PLL Summary
+# Info: =================================================
+# Time scale of (Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen) is  1ps /  1ps
+# Info: hierarchical_name = Lab8Tb.U0.U0.pll_altera_pll_altera_pll_i_639.new_model.gpll.no_need_to_gen
+# Info: reference_clock_frequency = 50.0 MHz
+# Info: output_clock_frequency = 1.171 MHZ
+# Info: phase_shift = 0 ps
+# Info: duty_cycle = 50
+# Info: sim_additional_refclk_cycles_to_lock = 0
+# Info: output_clock_high_period = 446000.000000
+# Info: output_clock_low_period = 446000.000000
+# ** Note: $stop    : C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv(30)
+#    Time: 50100 ns  Iteration: 0  Instance: /Lab8Tb
+# Break in Module Lab8Tb at C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv line 30

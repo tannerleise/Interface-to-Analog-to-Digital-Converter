@@ -1,0 +1,17 @@
+Partition Merge Status : Successful - Mon Apr 25 16:20:49 2022
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Standard Edition
+Revision Name : Lab8
+Top-level Entity Name : Lab8
+Family : Cyclone V
+Logic utilization (in ALMs) : 467 / 41,910 ( 1 % )
+Total registers : 672
+Total pins : 54 / 499 ( 11 % )
+Total virtual pins : 0
+Total block memory bits : 30,720 / 5,662,720 ( < 1 % )
+Total DSP Blocks : 0 / 112 ( 0 % )
+Total HSSI RX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 9 ( 0 % )
+Total HSSI TX PCSs : 0 / 9 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 9 ( 0 % )
+Total PLLs : 1 / 15 ( 7 % )
+Total DLLs : 0 / 4 ( 0 % )

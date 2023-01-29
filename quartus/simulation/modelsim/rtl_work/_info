@@ -1,0 +1,220 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/simulation/modelsim
+vbin2bcd
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1650928994
+!i10b 1
+!s100 KnFDe0JmIzY2X=z<^k[GB1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IzP5?450YY>K;M=jhcN[=h2
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1650316007
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv
+!i122 5
+L0 9 29
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1650928994.000000
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/bin2bcd.sv|
+!i113 1
+Z7 o-sv -work work
+Z8 !s92 -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source
+Z9 tCvgOpt 0
+vChannelSelect
+R1
+R2
+!i10b 1
+!s100 H7P;QQ;ON_`4:LANm_d6U1
+R3
+Idj[5@UDH90DF=TBC4F_=F0
+R4
+S1
+R0
+w1650928390
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/parameters.svh
+!i122 6
+Z10 L0 1 39
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/parameters.svh|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/ChannelSelect.sv|
+!i113 1
+R7
+R8
+R9
+n@channel@select
+vcount
+R1
+R2
+!i10b 1
+!s100 gEdgBk0MSYB;]M=ojc3E23
+R3
+IaE0IH]loXFmFOWf5fAFNk0
+R4
+S1
+R0
+w1650925484
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv
+!i122 4
+L0 3 52
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/count.sv|
+!i113 1
+R7
+R8
+R9
+vdata
+R1
+R2
+!i10b 1
+!s100 3RoHcUVdOad0OQ9EBH6N93
+R3
+I>_=n>ZU[QbAYO;B6Jl;733
+R4
+S1
+R0
+w1650928941
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv
+!i122 3
+L0 2 45
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/data.sv|
+!i113 1
+R7
+R8
+R9
+vHexlights
+R1
+R2
+!i10b 1
+!s100 UDmCknNRaimBneRildXid2
+R3
+II9ki;@LK0b?6o>iZR9Ti13
+R4
+S1
+R0
+w1650653826
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv
+!i122 2
+L0 4 29
+R5
+r1
+!s85 0
+31
+Z11 !s108 1650928993.000000
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Hexlights.sv|
+!i113 1
+R7
+R8
+R9
+n@hexlights
+vLab8
+R1
+Z12 !s110 1650928993
+!i10b 1
+!s100 QKn7MTHAhZVLVn2[0f<l]2
+R3
+I2a<V1]bcIWR5SgC@CVc_@0
+R4
+S1
+R0
+w1650909241
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv
+!i122 1
+R10
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/source/Lab8.sv|
+!i113 1
+R7
+R8
+R9
+n@lab8
+vLab8Tb
+R1
+R2
+!i10b 1
+!s100 Hi@CX8N4NK]MMh:`ihe3i1
+R3
+I4fhj]?DSSJBgLN8_fWOig0
+R4
+S1
+R0
+w1650910596
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv
+!i122 7
+L0 2 32
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source/Lab8Tb.sv|
+!i113 1
+R7
+!s92 -sv -work work +incdir+C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/../source
+R9
+n@lab8@tb
+vpll
+R12
+!i10b 1
+!s100 e`R05ZS>7Y_0Kim^QTgI`1
+R3
+IU?YKgZQo]ZUZc0J;Od_932
+R4
+R0
+w1650494286
+8C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo
+FC:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo
+!i122 0
+L0 32 264
+R5
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo|
+!s90 -reportprogress|300|C:/Users/tanle/OneDrive/Documents/VS_Code/3763_FPGA/Lab8/quartus/pll_sim/pll.vo|
+!i113 1
+R9
